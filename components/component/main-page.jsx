@@ -12,41 +12,31 @@ export function MainPage() {
   return (
     (<div className="relative">
       <div className="absolute top-0 left-0 right-0">
-        <nav className="flex justify-between items-center px-8 py-4">
-          <span className="text-xl font-bold">proske.</span>
+        <nav className="flex justify-between items-center p-8 shadow-2xl bg-white bg-opacity-10">
+          <span className="text-2xl font-bold text-white">Horizon</span>
           <ul className="flex space-x-4">
             <li>
-              <Link className="text-white hover:text-opacity-75" href="#">
+              <Link className="text-lg text-white hover:text-opacity-75" href="#">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="text-white hover:text-opacity-75" href="#">
+              <Link className="text-lg text-white hover:text-opacity-75" href="#">
                 Company
               </Link>
             </li>
             <li>
-              <Link className="text-white hover:text-opacity-75" href="#">
+              <Link className="text-lg text-white hover:text-opacity-75" href="#">
                 Services
               </Link>
             </li>
             <li>
-              <Link className="text-white hover:text-opacity-75" href="#">
-                Software Development
-              </Link>
-            </li>
-            <li>
-              <Link className="text-white hover:text-opacity-75" href="#">
+              <Link className="text-lg text-white hover:text-opacity-75" href="#">
                 Case Studies
               </Link>
             </li>
             <li>
-              <Link className="text-white hover:text-opacity-75" href="#">
-                News
-              </Link>
-            </li>
-            <li>
-              <Link className="text-white hover:text-opacity-75" href="#">
+              <Link className="text-lg text-white hover:text-opacity-75" href="#">
                 Contact
               </Link>
             </li>
@@ -54,24 +44,24 @@ export function MainPage() {
         </nav>
       </div>
       <div
-        className="h-screen bg-[url(/placeholder.svg?height=800&width=1600)] bg-cover bg-center flex flex-col justify-center items-center text-center">
-        <h1 className="text-5xl font-bold text-white mb-4">MAKING THE COMPLEX SIMPLE</h1>
+        className="h-screen bg-[url(/bg-ciudad.jpg?height=800&width=1600)] bg-cover bg-center flex flex-col justify-center items-center text-center">
+        <h1 className="text-5xl font-bold text-white mb-4">CREANDO NUEVAS REALIDADES</h1>
         <p className="text-white max-w-md mb-8">
-          THROUGH A STRATEGIC APPROACH TO EVENTS & LIVE MARKETING, SOFTWARE DEVELOPMENT, AND DIGITAL SOLUTIONS
+          A TRAVÉS DE SOLUCIONES TECNOLÓGICAS INNOVADORAS PARA PROBLEMAS COMPLEJOS Y EL CRECIMIENTO DIGITAL
         </p>
         <ChevronDownIcon className="text-white animate-bounce w-6 h-6" />
       </div>
       <div className="bg-gray-900 py-12 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">Software Development</h2>
+          <h2 className="text-3xl font-bold mb-4">Desarrollo de Software</h2>
           <p className="mb-8">
-            At proske., we specialize in custom software development, leveraging the latest technologies to create
-            innovative solutions that solve complex problems. Our team of skilled developers work closely with clients
-            to understand their unique needs and deliver tailored applications that drive business growth and
-            efficiency.
+            En Horizon, nos especializamos en el desarrollo de servicios de software, aprovechando las últimas
+            tecnologías para crear soluciones innovadoras que resuelvan retos empresariales. Nuestro equipo de
+            desarrolladores  y soporte trabaja en estrecha colaboración con los clientes para comprender sus necesidades
+            únicas y ofrecer aplicaciones que impulsen el crecimiento y la eficiencia empresarial.
           </p>
           <Button size="lg" variant="primary">
-            Learn More
+            Conoce Horizon
           </Button>
         </div>
       </div>
@@ -79,33 +69,32 @@ export function MainPage() {
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <CodeIcon className="text-gray-900 w-12 h-12 mb-4" />
-            <h3 className="text-2xl font-bold mb-2">Application Development</h3>
+            <h3 className="text-2xl font-bold mb-2">Desarrollo de Aplicaciones</h3>
             <p className="text-gray-600 mb-4">
-              Our team of skilled developers create custom applications that solve complex problems and drive business
-              growth.
+              Creamos aplicaciones que resuelven problemas, mejoran la interacción e impulsan el crecimiento.
             </p>
             <Button size="sm" variant="secondary">
-              Learn More
+              Conocer más
             </Button>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <GlobeIcon className="text-gray-900 w-12 h-12 mb-4" />
-            <h3 className="text-2xl font-bold mb-2">Web Development</h3>
+            <h3 className="text-2xl font-bold mb-2 min-h-[4rem]">Desarrollo Web</h3>
             <p className="text-gray-600 mb-4">
-              We design and develop modern, responsive websites that engage users and drive results.
+              Diseñamos y desarrollamos sitios web modernos y receptivos que involucran a los usuarios.
             </p>
             <Button size="sm" variant="secondary">
-              Learn More
+              Conocer más
             </Button>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <BriefcaseIcon className="text-gray-900 w-12 h-12 mb-4" />
-            <h3 className="text-2xl font-bold mb-2">Business Administration Systems</h3>
+            <h3 className="text-2xl font-bold mb-2">Sistemas Administrativos</h3>
             <p className="text-gray-600 mb-4">
-              Our custom business administration systems streamline operations and improve efficiency.
+              Nuestros sistemas de administración empresarial optimizan las operaciones y mejoran la eficiencia.
             </p>
             <Button size="sm" variant="secondary">
-              Learn More
+              Conocer más
             </Button>
           </div>
         </div>
