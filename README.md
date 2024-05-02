@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About this project
+These a landing page implementation looking for creating a complete website for a software development company.
+This project is currently being developed.
 
 ## Getting Started
 
