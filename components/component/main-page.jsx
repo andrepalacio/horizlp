@@ -16,28 +16,28 @@ export function MainPage() {
           <span className="text-2xl font-bold text-white">Horizon</span>
           <ul className="flex space-x-4">
             <li>
-              <Link className="text-lg text-white hover:text-opacity-75" href="#">
-                Home
+              <Link className="text-white hover:text-opacity-75" href="#">
+                Inicio
               </Link>
             </li>
             <li>
-              <Link className="text-lg text-white hover:text-opacity-75" href="#">
-                Company
+              <Link className="text-white hover:text-opacity-75" href="#">
+                Nosotros
               </Link>
             </li>
             <li>
-              <Link className="text-lg text-white hover:text-opacity-75" href="#">
-                Services
+              <Link className="text-white hover:text-opacity-75" href="#">
+                Servicios
               </Link>
             </li>
             <li>
-              <Link className="text-lg text-white hover:text-opacity-75" href="#">
-                Case Studies
+              <Link className="text-white hover:text-opacity-75" href="#">
+                Casos de éxito
               </Link>
             </li>
             <li>
-              <Link className="text-lg text-white hover:text-opacity-75" href="#">
-                Contact
+              <Link className="text-white hover:text-opacity-75" href="#">
+                Contacto
               </Link>
             </li>
           </ul>
@@ -104,24 +104,26 @@ export function MainPage() {
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <SmartphoneIcon className="text-gray-900 w-12 h-12 mb-4" />
             <h3 className="text-2xl font-bold mb-2">WhatsApp</h3>
-            <p className="text-gray-600 mb-4">Reach out to us on WhatsApp for quick assistance.</p>
+            <p className="text-gray-600 mb-4">
+              Ponte en contacto con nosotros en WhatsApp para obtener asistencia rápida.</p>
             <Link
               className="inline-flex items-center justify-center rounded-md bg-green-500 px-4 py-2 text-white shadow transition-colors hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
-              href="#"
+              href=""
               target="_blank">
               <SmartphoneIcon className="mr-2 w-5 h-5" />
-              Contact Us
+              Contáctanos
             </Link>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <MailIcon className="text-gray-900 w-12 h-12 mb-4" />
             <h3 className="text-2xl font-bold mb-2">Email</h3>
-            <p className="text-gray-600 mb-4">Send us a message and we'll get back to you as soon as possible.</p>
+            <p className="text-gray-600 mb-4">
+              Envíanos un mensaje y te responderemos lo antes posible.</p>
             <form className="space-y-4">
-              <Input className="w-full" placeholder="Enter your email" type="email" />
-              <Textarea className="w-full" placeholder="Enter your message" />
+              <Input className="w-full" placeholder="Ingresa tu email" type="email" />
+              <Textarea className="w-full" placeholder="Ingresa tu mensaje" />
               <Button className="w-full" type="submit" variant="primary">
-                Send Message
+                Enviar mensaje
               </Button>
             </form>
           </div>
